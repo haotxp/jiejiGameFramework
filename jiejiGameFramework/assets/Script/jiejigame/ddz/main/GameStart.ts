@@ -1,10 +1,6 @@
-import { Utils } from '../../../utils/Utils';
-import { Define, PlayerDirectionType } from '../../../Define/Define';
-import HTTP from '../../../net/HTTP';
-import LogHelp from '../../../Log/LogHelp';
+
 import { Player, ServerConfig } from '../../../manager/UserMgr';
-import UserMgr from '../../../manager/UserMgr';
-import Utility from '../../../utils/Utility';
+
 
 const {ccclass, property} = cc._decorator;
 

@@ -53,11 +53,11 @@ export default class AppStart extends cc.Component {
       let data = Base64.decode(pageParams["data"]);
       console.log("读取页面参数data： " + data);
       this.urlParams = JSON.parse(data);
-      Utils.SetLocalStorage(Define.STORAGE_PARAMS, data);
+      //Utils.SetLocalStorage(Define.STORAGE_PARAMS, data);
     } else {
       // 设置调试状态
       Define.isDebug = true;
-      Define.currentGameType = GameType.Game_DDZ
+      Define.currentGameType = GameType.Game_MUBAN
     }
 
     // Define.isDebug = false
@@ -87,8 +87,8 @@ export default class AppStart extends cc.Component {
     let resUrl = ""
     let scenceUrl = ""
 
-    if (Define.currentGameType == GameType.Game_DDZ) {
-      resUrl = Define.__DDZ__PRELOADING__PATH
+    if (Define.currentGameType == GameType.Game_MUBAN) {
+      resUrl = Define.__PRELOADING__PATH
       scenceUrl = GameSceneName.GAMESCENE
     }
 

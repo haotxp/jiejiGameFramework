@@ -27,6 +27,7 @@ export enum GameDefaultStr{
 
 export enum GameType {
   Game_NONE = -1,
+  Game_MUBAN = 0, //游戏模板
   //Game_ZFB = 0,  
 }
 
@@ -47,6 +48,20 @@ export enum SoundType {
  * 
  */
 export class Define{
+
+  /**是否调试 */
+  public static isDebug:boolean = false
+
+  /**当前游戏类型 */
+  public static currentGameType:any = -1
+
+
+
+  public static baseScore:number = 1000
+
+  public static  __PRELOADING__PATH = ''
+
+
 
 }
 
