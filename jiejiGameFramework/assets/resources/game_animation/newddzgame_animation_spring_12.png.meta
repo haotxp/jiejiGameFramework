@@ -1,0 +1,34 @@
+{
+  "ver": "2.3.3",
+  "uuid": "a52ba220-9d3e-4f4e-8d27-0afb9006380b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "platformSettings": {},
+  "subMetas": {
+    "newddzgame_animation_spring_12": {
+      "ver": "1.0.4",
+      "uuid": "3824e574-1277-49f2-976d-685c6d3e9fd8",
+      "rawTextureUuid": "a52ba220-9d3e-4f4e-8d27-0afb9006380b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -12,
+      "offsetY": 20,
+      "trimX": 1,
+      "trimY": 0,
+      "width": 522,
+      "height": 275,
+      "rawWidth": 548,
+      "rawHeight": 315,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

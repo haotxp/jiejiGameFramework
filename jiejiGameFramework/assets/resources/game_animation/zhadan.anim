@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "zhadan",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5166666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "1d293834-64ee-43c9-9b12-7a44c2beee75"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "3e742717-07a6-4dc7-ac16-d5d73dd6a3d3"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "64ddd745-40d9-4823-a15d-966d236f720f"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "a96e14ae-65a8-45a7-8c75-d6f2f1323824"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

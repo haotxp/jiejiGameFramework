@@ -1,0 +1,34 @@
+{
+  "ver": "2.3.3",
+  "uuid": "fb634e69-35ef-4f73-b1cc-87a66d042809",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "platformSettings": {},
+  "subMetas": {
+    "newddzgame_animation_rocket_flame_2": {
+      "ver": "1.0.4",
+      "uuid": "0abf5b7f-8959-4782-9a45-c409a05f3bae",
+      "rawTextureUuid": "fb634e69-35ef-4f73-b1cc-87a66d042809",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 0,
+      "width": 81,
+      "height": 204,
+      "rawWidth": 85,
+      "rawHeight": 204,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

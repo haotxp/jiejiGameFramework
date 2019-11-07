@@ -1,0 +1,34 @@
+{
+  "ver": "2.3.3",
+  "uuid": "715520fe-4395-40d2-984f-22d2944b7ffc",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "platformSettings": {},
+  "subMetas": {
+    "newddzgame_animation_jiabei_9": {
+      "ver": "1.0.4",
+      "uuid": "0efba354-79fb-4649-b7c9-0c753fc2fd75",
+      "rawTextureUuid": "715520fe-4395-40d2-984f-22d2944b7ffc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 5.5,
+      "offsetY": 4,
+      "trimX": 14,
+      "trimY": 3,
+      "width": 55,
+      "height": 61,
+      "rawWidth": 72,
+      "rawHeight": 75,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
