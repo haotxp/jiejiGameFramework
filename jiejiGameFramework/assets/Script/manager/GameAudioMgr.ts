@@ -101,24 +101,6 @@ export class GameAudioMgr
         if (this.audioStatus == 0) return
         let __strPath = Define.__AUDIO__PATH + __strSoundName;
 
-        if (Define.currentGameType == GameType.Game_MTL){
-            
-        } 
-        else if (Define.currentGameType == GameType.Game_ZFB) {
-            __strPath = Define.__AUDIO__PATH + "zfb/" + __strSoundName;
-            //cc.log("打印播放路径=", __strPath)
-        }
-        else if (Define.currentGameType == GameType.Game_PPT) 
-        {
-
-        }
-        else if (Define.currentGameType == GameType.Game_SCMAHJONG) {
-            __strPath = Define.__AUDIO__PATH + __strSoundName;
-        }
-        else if (Define.currentGameType == GameType.Game_DDZ){
-            __strPath = Define.__AUDIO__PATH + __strSoundName;
-        }
-
         this.Play(SoundType.EFFECT, __strPath, __bLoop);
     }
 

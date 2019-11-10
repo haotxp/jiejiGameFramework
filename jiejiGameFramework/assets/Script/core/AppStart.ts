@@ -156,11 +156,11 @@ export default class AppStart extends cc.Component {
     LogHelp.log("初始化");
 
     // 初始化websock
-    WebSocketManage.Instance.Initial();
+    //WebSocketManage.Instance.Initial();
     // 用户管理
     UserMgr.Instance.Initial();
     // 初始化http
-    HTTP.Instance.Initial();
+    //HTTP.Instance.Initial();
     // 初始化场景
     SceneManager.Instance.Initial();
     // 初始化音频
@@ -174,6 +174,7 @@ export default class AppStart extends cc.Component {
   urlParse() {
     let params = {};
     if (window.location == null) {
+      cc.log('window.location == null')
       return params;
     }
     let name, value;

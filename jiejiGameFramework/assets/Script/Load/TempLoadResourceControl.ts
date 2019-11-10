@@ -155,18 +155,6 @@ export class TempLoadResourceControl
         return this.__spineClipMap.get(url);
     }
 
-    /**
-     * 根据数值获取花色资源
-     * @param value 
-     */
-    public getHuaseByValue(value: number) {
-        let url = Define.getSpriteName(value);
-        if (this.__spriteFrameAssetMap.has(url)) {
-            return this.__spriteFrameAssetMap.get(url);
-        }
-        return null;
-    }
-
     //释放临时资源
     public Destroy()
     {

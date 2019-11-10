@@ -1,4 +1,4 @@
-import { PlayerDirectionType, Define, GamePlayerStatus } from '../Define/Define';
+import { Define, PlayerDirectionType } from '../Define/Define';
 
 const { ccclass, property } = cc._decorator;
 
@@ -129,8 +129,8 @@ export class Player {
     /** 当前玩家的显示方位 前端显示 */
     public posView: number = -1;
 
-    /** 当前玩家的状态 */
-    public status: GamePlayerStatus = GamePlayerStatus.IDLE;
+    // /** 当前玩家的状态 */
+    // public status: GamePlayerStatus = GamePlayerStatus.IDLE;
 
     /** 不花数量 */
     public buhua: number = 0;

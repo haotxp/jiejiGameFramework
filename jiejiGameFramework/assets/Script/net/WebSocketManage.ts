@@ -162,21 +162,21 @@ export default class WebSocketManage {
     public ReceiveMessage(key: string, command: number, data: string) {
         LogHelp.log("返回消息处理  [command:" + command + "] [data:" + data + "]");
         switch (key) {
-            case GameSocketType.SocketType_ZFB:
-                NotificationManage.Send(command, GameSocketType.SocketType_ZFB, data);
-                break;
-            case GameSocketType.SocketType_MTL:
-                NotificationManage.Send(command, GameSocketType.SocketType_MTL, data);
-                break;
-            case GameSocketType.SocketType_Horse:
-                NotificationManage.Send(command, GameSocketType.SocketType_Horse, data);
-                break;
-            case GameSocketType.SocketType_SCMahjong:
-                NotificationManage.Send(command, GameSocketType.SocketType_SCMahjong, data);
-                break;
-            case GameSocketType.SocketType_DDZ:
-                    NotificationManage.Send(command, GameSocketType.SocketType_DDZ, data);
-                break
+            // case GameSocketType.SocketType_ZFB:
+            //     NotificationManage.Send(command, GameSocketType.SocketType_ZFB, data);
+            //     break;
+            // case GameSocketType.SocketType_MTL:
+            //     NotificationManage.Send(command, GameSocketType.SocketType_MTL, data);
+            //     break;
+            // case GameSocketType.SocketType_Horse:
+            //     NotificationManage.Send(command, GameSocketType.SocketType_Horse, data);
+            //     break;
+            // case GameSocketType.SocketType_SCMahjong:
+            //     NotificationManage.Send(command, GameSocketType.SocketType_SCMahjong, data);
+            //     break;
+            // case GameSocketType.SocketType_DDZ:
+            //         NotificationManage.Send(command, GameSocketType.SocketType_DDZ, data);
+            //     break
             default:
                 break;
         }

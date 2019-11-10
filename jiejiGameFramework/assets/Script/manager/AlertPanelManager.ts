@@ -18,7 +18,7 @@ export default class AlertPanelManager {
         this.pool = new cc.NodePool(this.poolName);
         if (this.prefab) return;
 
-        cc.loader.loadRes('DDZPreloading/AlertPanel', (err, prefab) => {
+        cc.loader.loadRes('Preloading/AlertPanel', (err, prefab) => {
             if (err) {
                 cc.log('加载提示框pre失败')
                 return

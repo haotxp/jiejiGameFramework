@@ -1,5 +1,6 @@
 import GameMainView from './GameMainView';
-import GameMainStart from './GameStart';
+import GameMainStart from './GameMainStart';
+
 const {ccclass, property} = cc._decorator;
 
 /**
